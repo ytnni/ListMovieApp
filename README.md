@@ -7,16 +7,16 @@ MVVM with clean architecture
 
 The application has the following features:
 
-The main page has two tabs: Movies, Show.
-The Now Playing tab displays the movies.
-Each movie is shown as a poster picture in the grid, with rating stars and favorite state icon on top of it.
-You can pull down the list to refresh.
-Clicking on the movie poster will navigate to the movie details page.
+-The main page has two tabs: Movies, Show.
+-The Now Playing tab displays the movies.
+-Each movie is shown as a poster picture in the grid, with rating stars and favorite state icon on top of it.
+-You can pull down the list to refresh.
+-Clicking on the movie poster will navigate to the movie details page.
 
-This is vew layer basically strcture of whole android project (fragment/activity)
+This is view layer basically structure of whole android project (fragment/activity)
 
-Model
-View Model
+2. Model
+2.1 View Model
 ViewModel is one of the most important things in MVVM architecture. Unlike MVP architecture, it makes the loose coupling between activities and business logic. ViewModels does not have dependencies of UI components. So It makes easier unit testing. And ViewModel holds data about UI and it is lifecycle-aware.
  It makes easier implementing landscape mode, and we do not need to release observers when the UI component is destroyed.
 common : genre
@@ -24,10 +24,11 @@ detailmovie: detailmovie, productionCompany, productionCountry, Spoken language
 detailshow : created by, detail tvShows, LastEpisodeToAir, Network, NextEpisodeToAir, ProductionCompany, seson
 movies: Movie, Movies
 tvshows: tvShow, TVshows
+
 2. TheMovieDbAPI
  
 
-i build movielist app that consumes a REST api using retrofit and displays images using Picasso and bring in Retrofit and 
+I build movielist app that consumes a REST api using retrofit and displays images using Picasso and bring in Retrofit and 
 show real movie posters as well as detail information for each movie.
 i'm using The Movie Database Api to get some real data into our app
 
