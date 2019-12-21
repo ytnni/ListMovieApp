@@ -61,10 +61,11 @@ In order to add dependency to that library in my project, just add the following
 
 
 What I learned?
-Fetch data from the Internet with theMovieDB API
-Use adapters and custom list layouts to populate list views
-Incorporate libraries to simplify the amount of code you need to write
-Build a fully featured application that looks and feels natural on the latest Android operating system.
+
+ -Fetch data from the Internet with theMovieDB API
+ -Use adapters and custom list layouts to populate list views
+ -Incorporate libraries to simplify the amount of code you need to write
+ -Build a fully featured application that looks and feels natural on the latest Android operating system.
 
 
  
