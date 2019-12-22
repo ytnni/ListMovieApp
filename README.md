@@ -11,7 +11,7 @@ The application has the following features:
 
 This is view layer basically structure of whole android project (fragment/activity)
 
-###### Notation
+##### Notation
 The application respects the following points:
 - Fragment
 - Webservice API Rest
