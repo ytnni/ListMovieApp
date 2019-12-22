@@ -61,5 +61,10 @@ In order to add dependency to that library in my project, just add the following
 ## Screenshots
 
 ![Image description](https://github.com/ytnni/ListMovieApp/blob/master/movie%20tab.png)
+![Image description](https://github.com/ytnni/ListMovieApp/blob/master/movie%20details%20page.png)
+![Image description](https://github.com/ytnni/ListMovieApp/blob/master/tv%20shows%20tab.png)
+![Image description](https://github.com/ytnni/ListMovieApp/blob/master/tv%20shows%20details%20page.png)
+
+
 
  
