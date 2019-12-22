@@ -1,10 +1,6 @@
 # ListMovieApp
 MVVM with clean architecture
 
-1. Add Clean architecture With MVVM 
-
-
-
 The application has the following features:
 
 - The main page has two tabs: Movies, Show.
