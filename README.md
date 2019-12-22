@@ -23,7 +23,7 @@ detailshow : created by, detail tvShows, LastEpisodeToAir, Network, NextEpisodeT
 movies: Movie, Movies
 tvshows: tvShow, TVshows
 
-### TheMovieDbAPI
+## TheMovieDbAPI
  
 I build movielist app that consumes a REST api using retrofit and displays images using Picasso and bring in Retrofit and 
 show real movie posters as well as detail information for each movie.
@@ -52,7 +52,7 @@ In order to add dependency to that library in my project, just add the following
 
 
 
-What I learned?
+## What I learned?
 - Fetch data from the Internet with theMovieDB API
 - Use adapters and custom list layouts to populate list views
 - Incorporate libraries to simplify the amount of code you need to write
