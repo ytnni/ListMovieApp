@@ -11,9 +11,9 @@ The application has the following features:
 
 This is view layer basically structure of whole android project (fragment/activity)
 
-2. Model
+1. Model
 
-View Model
+1.1. View Model
 
 ViewModel is one of the most important things in MVVM architecture. Unlike MVP architecture, it makes the loose coupling between activities and business logic. ViewModels does not have dependencies of UI components. So It makes easier unit testing. And ViewModel holds data about UI and it is lifecycle-aware.
 It makes easier implementing landscape mode, and we do not need to release observers when the UI component is destroyed.
@@ -23,7 +23,7 @@ detailshow : created by, detail tvShows, LastEpisodeToAir, Network, NextEpisodeT
 movies: Movie, Movies
 tvshows: tvShow, TVshows
 
-3. TheMovieDbAPI
+2. TheMovieDbAPI
  
 I build movielist app that consumes a REST api using retrofit and displays images using Picasso and bring in Retrofit and 
 show real movie posters as well as detail information for each movie.
