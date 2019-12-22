@@ -13,7 +13,7 @@ This is view layer basically structure of whole android project (fragment/activi
 
 ## Model
 
-1.1. View Model
+#### View Model
 
 ViewModel is one of the most important things in MVVM architecture. Unlike MVP architecture, it makes the loose coupling between activities and business logic. ViewModels does not have dependencies of UI components. So It makes easier unit testing. And ViewModel holds data about UI and it is lifecycle-aware.
 It makes easier implementing landscape mode, and we do not need to release observers when the UI component is destroyed.
