@@ -11,7 +11,7 @@ The application has the following features:
 
 This is view layer basically structure of whole android project (fragment/activity)
 
-1. Model
+## Model
 
 1.1. View Model
 
@@ -23,7 +23,7 @@ detailshow : created by, detail tvShows, LastEpisodeToAir, Network, NextEpisodeT
 movies: Movie, Movies
 tvshows: tvShow, TVshows
 
-2. TheMovieDbAPI
+### TheMovieDbAPI
  
 I build movielist app that consumes a REST api using retrofit and displays images using Picasso and bring in Retrofit and 
 show real movie posters as well as detail information for each movie.
