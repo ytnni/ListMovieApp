@@ -17,7 +17,7 @@ The application respects the following points:
 - Webservice API Rest
 - Design
 - Clean architecture
-- RxJava ( RxKotlin )
+- RxJava or coroutines
 - Unit tests
 - Architecture MVVM
 
